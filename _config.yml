@@ -19,3 +19,14 @@ plugins:
 # Custom vars
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
+
+comment:
+  provider: "disqus"
+  disqus:
+    shrotname: "lee-super"
+    
+analytics:
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-W9XNHK3W2E"
+    anonymize_ip         : false

@@ -4,7 +4,7 @@
  <title>동규의 깃블로그</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-11-29T19:54:02+09:00</updated>
+ <updated>2022-11-29T21:37:39+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>movinggyu</name>
@@ -13,11 +13,106 @@
 
  
  <entry>
+   <title>This Is Google Analytics Plugin</title>
+   <link href="http://localhost:4000/jekyll/update/2022/11/29/plugin/"/>
+   <updated>2022-11-29T21:01:03+09:00</updated>
+   <id>http://localhost:4000/jekyll/update/2022/11/29/plugin</id>
+   <content type="html">&lt;h2 id=&quot;구글-애널리틱스가-뭐냐하면&quot;&gt;구글 애널리틱스가 뭐냐하면…&lt;/h2&gt;
+&lt;p&gt;구글에서 제공하는 웹 분석 서비스.&lt;/p&gt;
+
+&lt;h3 id=&quot;플러그인-적용하는-방법&quot;&gt;플러그인 적용하는 방법&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://analytics.google.com/analytics/web/&quot;&gt;Google Analytics&lt;/a&gt;에 접속해 회원가입한다.&lt;/li&gt;
+  &lt;li&gt;데이터 스트림 -&amp;gt; 웹 -&amp;gt; 본인 블로그 주소 입력&lt;/li&gt;
+  &lt;li&gt;위 과정을 통해 측정아이디 획득&lt;/li&gt;
+  &lt;li&gt;다음 코드를 _config.yml에 추가
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;analytics:
+  provider               : &quot;google-gtag&quot;
+                       # false (default), &quot;google&quot;, &quot;google-universal&quot;, &quot;google-gtag&quot;, &quot;custom&quot;
+  google:
+ tracking_id          : &quot;추적 ID&quot;
+ anonymize_ip         : # true, false (default)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Description of Bloggin I know</title>
-   <link href="http://localhost:4000/2022/11/29/description/"/>
+   <link href="http://localhost:4000/jekyll/update/2022/11/29/description/"/>
    <updated>2022-11-29T17:52:00+09:00</updated>
-   <id>http://localhost:4000/2022/11/29/description</id>
-   <content type="html">&lt;p&gt;안녕하세요&lt;/p&gt;
+   <id>http://localhost:4000/jekyll/update/2022/11/29/description</id>
+   <content type="html">&lt;h3 id=&quot;깃깃발아님을-다뤄보자&quot;&gt;깃(깃발아님)을 다뤄보자&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git init&lt;/code&gt; 을 통해 로컬 깃 생성&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone &amp;lt;url&amp;gt;&lt;/code&gt; 을 통해 원격 repo 복제&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add &amp;lt;file&amp;gt;&lt;/code&gt; 을 통해 commit에 반영&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit -m &quot;msg&quot;&lt;/code&gt; 을 통해 메시지와 함께 commit생성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;깃가지branch라는-뜻&quot;&gt;깃가지(branch라는 뜻)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch &amp;lt;name&amp;gt;&lt;/code&gt; 을 통해 새로운 가지 생성&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout &amp;lt;name&amp;gt;&lt;/code&gt; 을 통해 가지 변경&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git merge &amp;lt;name&amp;gt;&lt;/code&gt; 을 통해 현재 가지와 해당 가지 병합&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch -d &amp;lt;name&amp;gt;&lt;/code&gt; 을 통해 가지 삭제&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;원격깃&quot;&gt;원격깃&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;로컬깃을 push, pull을 이용해서 원격깃과 상호작용&lt;/li&gt;
+  &lt;li&gt;원격깃을통해 협업가능&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>About Markdown</title>
+   <link href="http://localhost:4000/jekyll/update/2022/11/29/markdown/"/>
+   <updated>2022-11-29T17:43:00+09:00</updated>
+   <id>http://localhost:4000/jekyll/update/2022/11/29/markdown</id>
+   <content type="html">&lt;h3 id=&quot;markdown이란&quot;&gt;Markdown이란?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;일반 텍스트로 서식이 있는 문서를 작성하는 방법&lt;/li&gt;
+  &lt;li&gt;블로그 포스팅을 할 때 Markdown을 이용해서 할것&lt;/li&gt;
+  &lt;li&gt;다음과 같은 문법들이 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;header&quot;&gt;Header&lt;/h1&gt;
+&lt;h2 id=&quot;header-1&quot;&gt;Header&lt;/h2&gt;
+&lt;h3 id=&quot;header-2&quot;&gt;Header&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#, ##, ###&lt;/code&gt; 을 문장 앞에 붙여 사용&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt;
+&lt;em&gt;Italic&lt;/em&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*...*, _..._&lt;/code&gt; 을 문장 앞에 붙여 사용&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;
+&lt;strong&gt;Bold&lt;/strong&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**...**, __...__&lt;/code&gt; 을 문장 앞에 붙여 사용&lt;/p&gt;
+
+&lt;p&gt;~Strikethrough~
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~...~&lt;/code&gt; 을 문장 앞에 붙여 사용&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unordered List&lt;/li&gt;
+  &lt;li&gt;Unordered List
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-...,*...&lt;/code&gt; 으로 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ordered List&lt;/li&gt;
+  &lt;li&gt;Ordered List
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1. ...&lt;/code&gt; 으로 사용&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello Markdown!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;역따옴표 3개로 블럭을 만들어 코드블록을 만들 수 있음.&lt;/p&gt;
+
+&lt;p&gt;Markdown Guide - Basic Syntax에서 더 많은 문법을 찾아 볼 수 있음.&lt;/p&gt;
 </content>
  </entry>
  
