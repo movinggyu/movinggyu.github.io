@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Lanyon</title>
+ <title>동규의 깃블로그</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-11-29T19:23:45+09:00</updated>
+ <updated>2022-11-29T19:54:02+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
-   <name>Mark Otto</name>
-   <email>markdotto@gmail.com</email>
+   <name>movinggyu</name>
+   <email>dlehdrb0822@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Description of Bloggin I know</title>
+   <link href="http://localhost:4000/2022/11/29/description/"/>
+   <updated>2022-11-29T17:52:00+09:00</updated>
+   <id>http://localhost:4000/2022/11/29/description</id>
+   <content type="html">&lt;p&gt;안녕하세요&lt;/p&gt;
+</content>
+ </entry>
  
 
 </feed>
